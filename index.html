@@ -80,6 +80,30 @@
     border-bottom: 1px solid #fff;
   }
 
+  .price-table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 220px;
+  }
+
+  .price-table th {
+    background-color: #706e99;
+    color: #fff;
+  }
+
+  .price-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+  }
+
+  .price-table td, .price-table th {
+    padding: 8px;
+    border: 1px solid #706e99;
+  }
+
+  .price-group {
+    margin-bottom: 10px;
+  }
+
   </style>
 </head>
 <body>
@@ -108,22 +132,22 @@
       </p>
     </section>
     <section id="pricing-section">
-      <h2>Convention Prices</h2>
+      <h2>Badge Prices</h2>
       <div class="price-group">
-        <table>
+        <table class="price-table">
           <thead>
-            <tr colspan="2">
-              <th>Full Week Badges</th>
+            <tr>
+              <th colspan="2">Full Week Badges</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>$90</td>
-              <td>Tournament Gaming Badge</td>
+              <td>Tournament Gaming</td>
             </tr>
             <tr>
               <td>$70</td>
-              <td>Open Gaming Badge</td>
+              <td>Open Gaming</td>
             </tr>
             <tr>
               <td>$45</td>
@@ -133,10 +157,10 @@
         </table>
       </div>
       <div class="price-group">
-        <table>
+        <table class="price-table">
           <thead>
             <tr>
-              <th>Day Badges</th>
+              <th colspan="2">Day Badges</th>
             </tr>
           </thead>
           <tbody>
