@@ -124,6 +124,13 @@
     font-weight: bold;
   }
 
+  div.anchor {
+    display: block;
+    position: relative;
+    top: -95px;
+    visibility: hidden;
+  }
+
   </style>
 </head>
 <body>
@@ -133,9 +140,9 @@
     </div>
     <div id="nav-container">
       <nav id="nav-bar">
-        <a class="nav-link" href="#details-section">Details</a>
-        <a class="nav-link" href="#pricing-section">Pricing</a>
-        <a class="nav-link" href="#form-section">Preztige Club</a>
+        <a class="nav-link" href="#details">Details</a>
+        <a class="nav-link" href="#prices">Badge Prices</a>
+        <a class="nav-link" href="#club">Preztige Club</a>
       </nav>
     </div>
   </header>
@@ -146,12 +153,14 @@
       </div>
     </section>
     <section id="details-section">
+      <div class="anchor" id="details"></div>
       <h2>PrezCon 2020</h2>
       <p>Charlottesville, VA
         <br/>Dates Coming Soon!
       </p>
     </section>
     <section id="pricing-section">
+      <div class="anchor" id="prices"></div>
       <h2>Badge Prices</h2>
       <div class="price-group">
         <table class="price-table">
@@ -201,6 +210,7 @@
       </div>
     </section>
     <section id="form-section">
+      <div class="anchor" id="club"></div>
       <h2>Be the First to Know</h2>
       <p>Join the Preztige Club and be the first to learn updates about PrezCon.</p>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
