@@ -40,6 +40,34 @@
     padding: 10px 0;
   }
 
+  /* Content */
+  section h2 {
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  div.anchor {
+    display: block;
+    position: relative;
+    top: -95px;
+    visibility: hidden;
+  }
+
+  #content-container {
+    display: grid;
+    grid-template-areas:
+      "video"
+      "details"
+      "pricing"
+      "form";
+  }
+
+  #video-section {
+    border-bottom: 1px solid #706e99;
+    grid-area: video;
+  }
+
   .video-embed {
     position: relative;
     padding-bottom: 56.25%;
@@ -59,26 +87,22 @@
     background-color: #706e99;
     color: #fff;
     text-align: center;
+    border-bottom: 1px solid #706e99;
+    grid-area: details;
   }
 
   #form-section {
     background-color: #706e99;
     color: #fff;
     text-align: center;
-  }
-
-  section h2 {
-    margin-top: 0;
-    padding-top: 10px;
-    text-align: center;
-  }
-
-  #video-section, #details-section, #form-section {
     border-bottom: 1px solid #706e99;
+    grid-area: form;
   }
+
 
   #pricing-section {
     border-bottom: 1px solid #fff;
+    grid-area: pricing;
   }
 
   .price-table {
@@ -105,6 +129,8 @@
     margin-bottom: 10px;
   }
 
+  /* Footer */
+
   footer {
     text-align: center;
     background-color: #706e99;
@@ -125,11 +151,15 @@
     font-weight: bold;
   }
 
-  div.anchor {
-    display: block;
-    position: relative;
-    top: -95px;
-    visibility: hidden;
+
+  @media (min-width: 700px) {
+    #content-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "video    details"
+        "pricing  pricing"
+        "form     form";
+    }
   }
 
   </style>
@@ -147,7 +177,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main id="content-container">
     <section id="video-section">
       <div class="video-embed">
         <iframe id="video" src="https://www.youtube.com/embed/D1LnBUfXzYQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
