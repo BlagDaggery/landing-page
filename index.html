@@ -108,7 +108,7 @@
   .price-table {
     margin: auto;
     border-collapse: collapse;
-    width: 220px;
+    width: 280px;
   }
 
   .price-table th {
@@ -151,7 +151,6 @@
     font-weight: bold;
   }
 
-
   @media (min-width: 700px) {
     #content-container {
       grid-template-columns: 1fr 1fr;
@@ -159,6 +158,13 @@
         "video    details"
         "pricing  pricing"
         "form     form";
+    }
+
+    #price-group-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 700px;
+      margin: auto;
     }
   }
 
@@ -194,51 +200,53 @@
     <section id="pricing-section">
       <div class="anchor" id="prices"></div>
       <h2>Badge Prices</h2>
-      <div class="price-group">
-        <table class="price-table">
-          <thead>
-            <tr>
-              <th colspan="2">Full Week Badges</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>$90</td>
-              <td>Tournament Gaming</td>
-            </tr>
-            <tr>
-              <td>$70</td>
-              <td>Open Gaming</td>
-            </tr>
-            <tr>
-              <td>$45</td>
-              <td>Jr. Badge</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="price-group">
-        <table class="price-table">
-          <thead>
-            <tr>
-              <th colspan="2">Day Badges</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>$80</td>
-              <td>Friday and Saturday</td>
-            </tr>
-            <tr>
-              <td>$70</td>
-              <td>Any 2 days</td>
-            </tr>
-            <tr>
-              <td>$40</td>
-              <td>Any 1 day</td>
-            </tr>
-          </tbody>
-        </table>
+      <div id="price-group-container">
+        <div class="price-group">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th colspan="2">Full Week Badges</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>$90</td>
+                <td>Tournament Gaming</td>
+              </tr>
+              <tr>
+                <td>$70</td>
+                <td>Open Gaming</td>
+              </tr>
+              <tr>
+                <td>$45</td>
+                <td>Jr. Badge</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-group">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th colspan="2">Day Badges</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>$80</td>
+                <td>Friday and Saturday</td>
+              </tr>
+              <tr>
+                <td>$70</td>
+                <td>Any 2 days</td>
+              </tr>
+              <tr>
+                <td>$40</td>
+                <td>Any 1 day</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
     <section id="form-section">
