@@ -42,9 +42,10 @@ div.anchor {
   #content-container {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "video    details"
-      "pricing  pricing"
-      "form     form";
+    "hero     hero"
+    "video    details"
+    "pricing  pricing"
+    "form     form";
   }
 
   #details-content {

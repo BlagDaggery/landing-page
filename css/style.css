@@ -125,7 +125,7 @@ div.anchor {
 @media (min-width: 700px) {
   #content-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "video    details" "pricing  pricing" "form     form"; }
+    grid-template-areas: "hero     hero" "video    details" "pricing  pricing" "form     form"; }
 
   #details-content {
     padding: 40px; }
