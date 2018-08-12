@@ -22,6 +22,10 @@
   border: 0.5px #6c7174 solid;
   padding: 10px 0; }
 
+#hero {
+  grid-area: hero;
+  text-align: center; }
+
 #video-section {
   border-bottom: 1px solid #706e99;
   grid-area: video; }
@@ -116,7 +120,7 @@ div.anchor {
 
 #content-container {
   display: grid;
-  grid-template-areas: "video" "details" "pricing" "form"; }
+  grid-template-areas: "hero" "video" "details" "pricing" "form"; }
 
 @media (min-width: 700px) {
   #content-container {
