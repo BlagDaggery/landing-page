@@ -2,7 +2,7 @@
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: $dark-gray;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@
 .nav-link {
   flex-grow: 1;
   text-decoration: none;
-  color: #000;
+  color: $white;
   border: 0.5px #6c7174 solid;
   padding: 10px 0;
 }

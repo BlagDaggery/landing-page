@@ -2,7 +2,7 @@
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #2a2d34;
   text-align: center; }
 
 #logo-container {
@@ -18,7 +18,7 @@
 .nav-link {
   flex-grow: 1;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   border: 0.5px #6c7174 solid;
   padding: 10px 0; }
 
