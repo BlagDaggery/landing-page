@@ -1,0 +1,28 @@
+#pricing-section {
+  border-bottom: 1px solid #fff;
+  grid-area: pricing;
+}
+
+.price-table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 280px;
+}
+
+.price-table th {
+  background-color: #706e99;
+  color: #fff;
+}
+
+.price-table tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.price-table td, .price-table th {
+  padding: 8px;
+  border: 1px solid #706e99;
+}
+
+.price-group {
+  margin-bottom: 10px;
+}

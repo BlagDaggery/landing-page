@@ -1,0 +1,57 @@
+@import 'header';
+@import 'video';
+@import 'details';
+@import 'pricing';
+@import 'form';
+@import 'footer';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Content */
+section h2 {
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.anchor {
+  display: block;
+  position: relative;
+  top: -95px;
+  visibility: hidden;
+}
+
+#content-container {
+  display: grid;
+  grid-template-areas:
+    "video"
+    "details"
+    "pricing"
+    "form";
+}
+
+@media (min-width: 700px) {
+  #content-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "video    details"
+      "pricing  pricing"
+      "form     form";
+  }
+
+  #details-content {
+    padding: 40px;
+  }
+
+  #price-group-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    margin: auto;
+  }
+}
