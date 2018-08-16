@@ -48,10 +48,9 @@
   height: 100%; }
 
 #details-section {
-  background-color: #706e99;
-  color: #fff;
+  background-color: #e3e3e3;
+  color: #2a2d34;
   text-align: center;
-  border-bottom: 1px solid #706e99;
   grid-area: details; }
 
 #details-content {
