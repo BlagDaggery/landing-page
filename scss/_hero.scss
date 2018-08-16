@@ -1,4 +1,9 @@
 #hero {
   grid-area: hero;
   text-align: center;
+  height: 50vh;
+  background-color: $light-gray;
+  h1 {
+    margin-top: 18vh;
+  }
 }
