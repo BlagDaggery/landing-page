@@ -59,27 +59,34 @@
   width: 85%; }
 
 #pricing-section {
-  border-bottom: 1px solid #fff;
-  grid-area: pricing; }
-
-.price-table {
-  margin: auto;
-  border-collapse: collapse;
-  width: 280px; }
-
-.price-table th {
-  background-color: #706e99;
+  background-color: #93dc28;
+  grid-area: pricing;
   color: #fff; }
 
-.price-table tr:nth-child(odd) {
-  background-color: #f2f2f2; }
-
-.price-table td, .price-table th {
-  padding: 8px;
-  border: 1px solid #706e99; }
-
-.price-group {
+.price-card {
+  --price-card-width: 200px;
+  width: var(--price-card-width);
+  height: calc(var(--price-card-width) * 1.4);
+  border-radius: 10px;
+  margin: auto;
+  color: #2a2d34;
+  background-color: #fff;
+  display: grid;
   margin-bottom: 10px; }
+
+.price-top, .price-bottom {
+  font-size: 24px;
+  font-weight: bold; }
+
+.price-bottom {
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1); }
+
+.badge-description {
+  text-align: center; }
 
 #form-section {
   background-color: #706e99;
@@ -136,6 +143,7 @@ div.anchor {
 
   #price-group-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
     max-width: 700px;
     margin: auto; } }

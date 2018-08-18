@@ -1,28 +1,35 @@
 #pricing-section {
-  border-bottom: 1px solid #fff;
+  background-color: $lime-green;
   grid-area: pricing;
+  color: $white;
 }
 
-.price-table {
+.price-card {
+  --price-card-width: 200px;
+  width: var(--price-card-width);
+  height: calc(var(--price-card-width) * 1.4);
+  border-radius: 10px;
   margin: auto;
-  border-collapse: collapse;
-  width: 280px;
-}
-
-.price-table th {
-  background-color: #706e99;
-  color: #fff;
-}
-
-.price-table tr:nth-child(odd){
-  background-color: #f2f2f2;
-}
-
-.price-table td, .price-table th {
-  padding: 8px;
-  border: 1px solid #706e99;
-}
-
-.price-group {
+  color: $dark-gray;
+  background-color: $white;
+  display: grid;
   margin-bottom: 10px;
+}
+
+.price-top {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price-bottom {
+  @extend .price-top;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.badge-description {
+  text-align: center;
 }
