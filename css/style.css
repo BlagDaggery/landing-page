@@ -49,7 +49,7 @@
   height: 100%; }
 
 #details-section {
-  background-color: #e3e3e3;
+  background-color: #fff;
   color: #2a2d34;
   text-align: center;
   grid-area: details; }
@@ -59,7 +59,7 @@
   width: 85%; }
 
 #pricing-section {
-  background-color: #93dc28;
+  background-color: #2a2d34;
   grid-area: pricing;
   color: #fff; }
 
@@ -89,17 +89,15 @@
   text-align: center; }
 
 #form-section {
-  background-color: #706e99;
-  color: #fff;
+  background-color: #fff;
+  color: #2a2d34;
   text-align: center;
-  border-bottom: 1px solid #706e99;
   grid-area: form; }
 
 /* Footer */
 footer {
   text-align: center;
-  background-color: #706e99;
-  border-top: 1px solid #706e99; }
+  background-color: #2a2d34; }
 
 footer img {
   margin: 10px auto; }
