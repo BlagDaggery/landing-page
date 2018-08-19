@@ -26,8 +26,10 @@
 #hero {
   grid-area: hero;
   text-align: center;
-  height: 50vh;
-  background-color: #e3e3e3; }
+  height: 65vh;
+  background: linear-gradient(rgba(42, 45, 52, 0.6), rgba(42, 45, 52, 0.6)), url(../img/board-game-hero-min.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff; }
   #hero h1 {
     margin-top: 18vh; }
 
