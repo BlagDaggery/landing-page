@@ -18,3 +18,12 @@ footer a {
   color: #DBD593;
   font-weight: bold;
 }
+
+.attribution {
+  color: $light-gray;
+  font-size: 10px;
+  padding-bottom: 10px;
+  a {
+    color: $lime-green;
+  }
+}
