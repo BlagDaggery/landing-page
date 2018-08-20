@@ -1,7 +1,6 @@
 @import 'variables';
 @import 'header';
 @import 'hero';
-@import 'video';
 @import 'details';
 @import 'pricing';
 @import 'form';
@@ -43,7 +42,7 @@ div.anchor {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "hero     hero"
-    "video    details"
+    "details  details"
     "pricing  pricing"
     "form     form";
   }
