@@ -1,0 +1,4 @@
+body {
+  font-family: $body-font;
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+}
