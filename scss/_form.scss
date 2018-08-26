@@ -9,3 +9,31 @@
   text-align: left;
   list-style-image: url('../img/icon-gray-16x16.png');
 }
+
+.form {
+  width: 80vw;
+  margin: auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.email-field {
+  flex-grow: 3;
+  font-family: inherit;
+  height: 20px;
+  border: 1px $light-gray solid;
+  &:active {
+    border-color: $lime-green;
+  }
+}
+
+.button {
+  flex-grow: 2;
+  background-color: $lime-green;
+  border: none;
+  font-family: inherit;
+  color: $white;
+  height: 24px;
+}

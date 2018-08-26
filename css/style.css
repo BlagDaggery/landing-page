@@ -112,6 +112,30 @@ body {
   text-align: left;
   list-style-image: url("../img/icon-gray-16x16.png"); }
 
+.form {
+  width: 80vw;
+  margin: auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.email-field {
+  flex-grow: 3;
+  font-family: inherit;
+  height: 20px;
+  border: 1px #e3e3e3 solid; }
+  .email-field:active {
+    border-color: #93dc28; }
+
+.button {
+  flex-grow: 2;
+  background-color: #93dc28;
+  border: none;
+  font-family: inherit;
+  color: #fff;
+  height: 24px; }
+
 /* Footer */
 footer {
   text-align: center;
