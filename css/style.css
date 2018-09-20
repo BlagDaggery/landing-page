@@ -34,7 +34,7 @@ body {
 .nav-link {
   flex-grow: 1;
   text-decoration: none;
-  color: #ffffff;
+  color: #e3e3e3;
   padding: 0.25rem .75rem; }
 
 .dice-logo {
@@ -90,7 +90,7 @@ body {
 #pricing-section {
   background-color: #2a2d34;
   grid-area: pricing;
-  color: #ffffff; }
+  color: #e3e3e3; }
 
 .price-card {
   --price-card-width: 200px;
