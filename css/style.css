@@ -34,7 +34,7 @@ body {
 .nav-link {
   flex-grow: 1;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   padding: 0.25rem .75rem; }
 
 .dice-logo {
@@ -55,12 +55,12 @@ body {
   height: 65vh;
   background: linear-gradient(rgba(42, 45, 52, 0.6), rgba(42, 45, 52, 0.6)), url(../img/board-game-hero-min.jpg) no-repeat center center;
   background-size: cover;
-  color: #fff; }
+  color: #ffffff; }
   #hero h1 {
     margin-top: 18vh; }
 
 #details-section {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #2a2d34;
   text-align: center;
   grid-area: details; }
@@ -90,7 +90,7 @@ body {
 #pricing-section {
   background-color: #2a2d34;
   grid-area: pricing;
-  color: #fff; }
+  color: #ffffff; }
 
 .price-card {
   --price-card-width: 200px;
@@ -99,7 +99,7 @@ body {
   border-radius: 10px;
   margin: auto;
   color: #2a2d34;
-  background-color: #fff;
+  background-color: #ffffff;
   display: grid;
   margin-bottom: 10px; }
 
@@ -118,7 +118,7 @@ body {
   text-align: center; }
 
 #form-section {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #2a2d34;
   text-align: center;
   grid-area: form; }
@@ -148,7 +148,7 @@ body {
   background-color: #93dc28;
   border: none;
   font-family: inherit;
-  color: #fff;
+  color: #ffffff;
   height: 24px; }
 
 /* Footer */

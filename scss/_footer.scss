@@ -2,7 +2,7 @@
 
 footer {
   text-align: center;
-  background-color: $dark-gray;
+  background-color: $primary-dark;
 }
 
 footer img {
@@ -20,10 +20,10 @@ footer a {
 }
 
 .attribution {
-  color: $light-gray;
+  color: $primary-medium;
   font-size: 10px;
   padding-bottom: 10px;
   a {
-    color: $lime-green;
+    color: $accent-1;
   }
 }

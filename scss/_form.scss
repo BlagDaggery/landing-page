@@ -1,6 +1,6 @@
 #form-section {
-  background-color: $white;
-  color: $dark-gray;
+  background-color: $primary-light;
+  color: $primary-dark;
   text-align: center;
   grid-area: form;
 }
@@ -23,17 +23,17 @@
   flex-grow: 3;
   font-family: inherit;
   height: 20px;
-  border: 1px $light-gray solid;
+  border: 1px $primary-medium solid;
   &:active {
-    border-color: $lime-green;
+    border-color: $accent-1;
   }
 }
 
 .button {
   flex-grow: 2;
-  background-color: $lime-green;
+  background-color: $accent-1;
   border: none;
   font-family: inherit;
-  color: $white;
+  color: $primary-light;
   height: 24px;
 }

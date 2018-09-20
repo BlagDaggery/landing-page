@@ -2,9 +2,9 @@
   grid-area: hero;
   text-align: center;
   height: 65vh;
-  background: linear-gradient(rgba(42,45,52, .6), rgba(42,45,52, .6)), url(../img/board-game-hero-min.jpg) no-repeat center center;
+  background: linear-gradient($primary-dark-gradient, $primary-dark-gradient), url(../img/board-game-hero-min.jpg) no-repeat center center;
   background-size: cover;
-  color: $white;
+  color: $primary-light;
   h1 {
     margin-top: 18vh;
   }

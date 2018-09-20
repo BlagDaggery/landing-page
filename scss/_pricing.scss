@@ -1,7 +1,7 @@
 #pricing-section {
-  background-color: $dark-gray;
+  background-color: $primary-dark;
   grid-area: pricing;
-  color: $white;
+  color: $primary-light;
 }
 
 .price-card {
@@ -10,8 +10,8 @@
   height: calc(var(--price-card-width) * 1.4);
   border-radius: 10px;
   margin: auto;
-  color: $dark-gray;
-  background-color: $white;
+  color: $primary-dark;
+  background-color: $primary-light;
   display: grid;
   margin-bottom: 10px;
 }
