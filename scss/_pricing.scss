@@ -9,11 +9,10 @@
   width: var(--price-card-width);
   height: calc(var(--price-card-width) * 1.4);
   border-radius: 10px;
-  margin: auto;
+  margin: 1rem;
   color: $primary-dark;
   background-color: $primary-light;
   display: grid;
-  margin-bottom: 10px;
 }
 
 .price-top {
@@ -34,12 +33,9 @@
   text-align: center;
 }
 
-@include break-point($m) {
-  #price-group-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    max-width: 700px;
-    margin: auto;
-  }
+#price-group-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
 }

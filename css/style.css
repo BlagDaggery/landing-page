@@ -102,11 +102,10 @@ body {
   width: var(--price-card-width);
   height: calc(var(--price-card-width) * 1.4);
   border-radius: 10px;
-  margin: auto;
+  margin: 1rem;
   color: #2a2d34;
   background-color: #ffffff;
-  display: grid;
-  margin-bottom: 10px; }
+  display: grid; }
 
 .price-top, .price-bottom {
   font-size: 24px;
@@ -122,13 +121,12 @@ body {
 .badge-description {
   text-align: center; }
 
-@media (min-width: 680px) {
-  #price-group-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    max-width: 700px;
-    margin: auto; } }
+#price-group-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around; }
+
 #form-section {
   background-color: #ffffff;
   color: #2a2d34;
