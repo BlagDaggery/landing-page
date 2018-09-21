@@ -1,4 +1,5 @@
 // Color Palette
+//--------------------------------------------------
 $primary-dark: #2a2d34;
 $primary-dark-gradient: rgba(42,45,52, .6);
 
@@ -7,9 +8,13 @@ $primary-light: #ffffff;
 
 $accent-1: #93dc28;
 
-//font families
+//Font families
+//--------------------------------------------------
 $body-font: 'Roboto', sans-serif;
 
+
+// Fluid Type Calculation
+//--------------------------------------------------
 $min_width: 320px;
 $max_width: 1200px;
 $min_font: 16px;
@@ -37,3 +42,9 @@ $max_font: 20px;
     }
   }
 }
+
+// Breakpoints
+//--------------------------------------------------
+$s: 450px;
+$m: 680px;
+$l: 1000px;
