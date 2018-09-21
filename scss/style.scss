@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 @import 'typography';
 @import 'header';
 @import 'hero';
@@ -38,16 +39,7 @@ div.anchor {
   "form";
 }
 
-@media (min-width: 700px) {
-  #content-container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    "hero     hero"
-    "details  details"
-    "pricing  pricing"
-    "form     form";
-  }
-
+@include break-point($m) {
   #details-content {
     padding: 40px;
   }

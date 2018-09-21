@@ -40,7 +40,7 @@ body {
 .dice-logo {
   padding: 5px; }
 
-@media (min-width: 700px) {
+@media (min-width: 680px) {
   #header {
     padding: .25rem 2rem; }
 
@@ -151,7 +151,6 @@ body {
   color: #ffffff;
   height: 24px; }
 
-/* Footer */
 footer {
   text-align: center;
   background-color: #2a2d34; }
@@ -195,11 +194,7 @@ div.anchor {
   display: grid;
   grid-template-areas: "hero" "video" "details" "pricing" "form"; }
 
-@media (min-width: 700px) {
-  #content-container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "hero     hero" "details  details" "pricing  pricing" "form     form"; }
-
+@media (min-width: 680px) {
   #details-content {
     padding: 40px; }
 
