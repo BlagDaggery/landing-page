@@ -20,10 +20,12 @@ body {
   align-items: center; }
 
 #logo-container {
-  flex-grow: 1; }
+  flex-grow: 1;
+  text-align: center; }
 
 #nav-container {
-  flex-grow: 1; }
+  flex-grow: 1;
+  text-align: center; }
 
 #nav-bar {
   display: flex;
