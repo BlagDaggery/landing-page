@@ -38,17 +38,3 @@ div.anchor {
   "pricing"
   "form";
 }
-
-@include break-point($m) {
-  #details-content {
-    padding: 40px;
-  }
-
-  #price-group-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    max-width: 700px;
-    margin: auto;
-  }
-}
