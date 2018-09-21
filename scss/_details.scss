@@ -31,10 +31,9 @@
   height: 100%;
 }
 
-
-
 @include break-point($m) {
   #details-content {
-    padding: 40px;
+    //padding: 40px;
+    max-width: $m;
   }
 }

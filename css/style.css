@@ -91,7 +91,7 @@ body {
 
 @media (min-width: 680px) {
   #details-content {
-    padding: 40px; } }
+    max-width: 680px; } }
 #pricing-section {
   background-color: #2a2d34;
   grid-area: pricing;
