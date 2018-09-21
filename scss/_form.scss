@@ -3,17 +3,22 @@
   color: $primary-dark;
   text-align: center;
   grid-area: form;
+  margin: auto;
 }
 
 .club-benefits {
+  width: 80vw;
+  max-width: $m;
   text-align: left;
   list-style-image: url('../img/icon-gray-16x16.png');
+  padding-left: 22px;
 }
 
 .form {
   width: 80vw;
-  margin: auto;
+  max-width: $s;
   padding-bottom: 20px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,4 +41,13 @@
   font-family: inherit;
   color: $primary-light;
   height: 24px;
+}
+
+@include break-point($m) {
+  #form-section {
+    width: 80vw;
+    max-width: $m;
+    margin: auto;
+  }
+
 }

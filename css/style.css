@@ -131,16 +131,21 @@ body {
   background-color: #ffffff;
   color: #2a2d34;
   text-align: center;
-  grid-area: form; }
+  grid-area: form;
+  margin: auto; }
 
 .club-benefits {
+  width: 80vw;
+  max-width: 680px;
   text-align: left;
-  list-style-image: url("../img/icon-gray-16x16.png"); }
+  list-style-image: url("../img/icon-gray-16x16.png");
+  padding-left: 22px; }
 
 .form {
   width: 80vw;
-  margin: auto;
+  max-width: 450px;
   padding-bottom: 20px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -161,6 +166,11 @@ body {
   color: #ffffff;
   height: 24px; }
 
+@media (min-width: 680px) {
+  #form-section {
+    width: 80vw;
+    max-width: 680px;
+    margin: auto; } }
 footer {
   text-align: center;
   background-color: #2a2d34; }
